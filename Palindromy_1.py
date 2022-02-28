@@ -1,2 +1,3 @@
-def palindrom_check():
-    """funkcja sprawdza czy dany wyraz jest palindromem"""
+
+def palindrome_check(word):
+  i = len(word)/2

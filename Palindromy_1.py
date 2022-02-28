@@ -5,3 +5,6 @@ def palindrom_check(word):
   n = 0
   while n < i:
     if word[n] != word[-n - 1]:
+      return False
+      n = n + 1
+  return True

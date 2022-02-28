@@ -4,3 +4,4 @@ def palindrom_check(word):
   i = len(word)/2
   n = 0
   while n < i:
+    if word[n] != word[-n - 1]:
